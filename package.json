@@ -1,0 +1,25 @@
+{
+  "name": "palpite-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "keywords": [],
+  "author": "Tulio Faria (DevPleno.com)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "google-spreadsheet": "^3.1.15",
+    "moment": "^2.29.1",
+    "next": "^11.1.2",
+    "postcss-import": "^13.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "swr": "^1.0.1",
+    "tailwindcss": "^1.9.0"
+  }
+}
