@@ -5,6 +5,7 @@ import { fromBase64 } from '../../utils/base64'
 const doc = new GoogleSpreadsheet(process.env.SHEET_DOC_ID)
 
 const genCupon = () => {
+  moment.locale('pt-br')
   const code = parseInt(moment().format('YYMMDDHHmmssSSS')).toString(16).toUpperCase()
   return code.substr(0, 4) + '-' + code.substr(4, 4) + '-' + code.substr(8, 4)
 }
